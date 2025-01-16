@@ -12,6 +12,7 @@ public class Student
 {
     private String name; // encapsulation principle
     private int sid;
+    private int semno;
 
     /**
      * @return the name
@@ -39,5 +40,19 @@ public class Student
      */
     public void setSid(int sid) {
         this.sid = sid;
+    }
+
+    /**
+     * @return the semno
+     */
+    public int getSemno() {
+        return semno;
+    }
+
+    /**
+     * @param semno the semno to set
+     */
+    public void setSemno(int semno) {
+        this.semno = semno;
     }
 }
