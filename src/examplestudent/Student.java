@@ -15,7 +15,7 @@ public class Student
     private int semno;
     private String Coursename;
     private int year;
-
+    /* this is to learn fetch+merge */
     /**
      * @return the name
      */
