@@ -10,7 +10,7 @@ package examplestudent;
  */
 public class PartTimeStudent 
 {
-private int sid;    
+private int studentid;    
 
     /**
      * @return the sid
