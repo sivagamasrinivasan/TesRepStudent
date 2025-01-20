@@ -14,6 +14,7 @@ public class Student
     private int sid;
     private int semno;
     private String Coursename;
+    private int year;
 
     /**
      * @return the name
