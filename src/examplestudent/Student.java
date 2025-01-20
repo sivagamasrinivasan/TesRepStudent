@@ -13,6 +13,7 @@ public class Student
     private String name; // encapsulation principle
     private int sid;
     private int semno;
+    private String Coursename;
 
     /**
      * @return the name
@@ -54,5 +55,19 @@ public class Student
      */
     public void setSemno(int semno) {
         this.semno = semno;
+    }
+
+    /**
+     * @return the Coursename
+     */
+    public String getCoursename() {
+        return Coursename;
+    }
+
+    /**
+     * @param Coursename the Coursename to set
+     */
+    public void setCoursename(String Coursename) {
+        this.Coursename = Coursename;
     }
 }
